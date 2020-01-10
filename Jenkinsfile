@@ -8,7 +8,7 @@ pipeline{
                 // Run the npm build
                 //sh'export PATH=/usr/local/bin'
                 //sh'node --version'
-                sh'/var/lib/jenkins/workspace/nodejs npm --version'
+                sh'npm --version'
                 //sh 'npm install'
             }
         }
