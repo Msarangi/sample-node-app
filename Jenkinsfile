@@ -8,7 +8,7 @@ pipeline{
                 //sh'export PATH=/usr/local/bin'
                 //sh'node --version'
                 //sh'npm --version'
-                //sh 'npm install'
+                sh 'npm install'
             }
         }
     }
