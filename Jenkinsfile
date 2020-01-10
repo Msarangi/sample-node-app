@@ -4,11 +4,12 @@ pipeline{
         stage('Build') {
             steps {
                 echo'hi'
+                sh'pwd'
                 // Run the npm build
                 //sh'export PATH=/usr/local/bin'
                 //sh'node --version'
                 //sh'npm --version'
-                sh 'sudo /root/.nvm/versions/node/v13.6.0/bin/npm npm install'
+                sh 'npm install'
             }
         }
     }
