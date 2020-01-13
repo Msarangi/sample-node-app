@@ -8,8 +8,8 @@ pipeline{
                 // Run the npm build
                 sh'node --version'
                 sh'npm --version'
-                sh'export http_proxy=http://proxy.intra.bt.com:8080' 
-                sh'export https_proxy=https://proxy.intra.bt.com:8080'
+                //sh'export http_proxy=http://proxy.intra.bt.com:8080' 
+                //sh'export https_proxy=https://proxy.intra.bt.com:8080'
                 sh'npm install'
             }
         }
